@@ -18,7 +18,7 @@ DeepSeek Harness（DSH Web GUI）的会话标签页插件：在会话标题上�
 在 DSH profile 的 `package.json` 依赖里加：
 
 ```json
-"@local/session-tabs": "github:Huakira/dsh-session-tabs"
+"@local/session-tabs": "@huakira/session-tabs"
 ```
 
 并在 profile 的 `cordis.patch.yml` 加一行：

@@ -1,5 +1,5 @@
 window.__ModuleLoader__.load({
-  id: '@local/session-tabs',
+  id: '@huakirax/dsh-session-tabs',
   factory(require) {
     const React = require('react');
     const h = React.createElement;
@@ -705,7 +705,7 @@ window.__ModuleLoader__.load({
         //    (keyed by the package name; `view: 'summary'` renders null).
         ctx.slots.inject('plugins.bundle.config', () => ctx.slots.register({
           name: 'plugins.bundle.config',
-          key: '@local/session-tabs',
+          key: '@huakirax/dsh-session-tabs',
           id: 'session-tabs.settings',
           locale: NS,
           inject: settingsModel
